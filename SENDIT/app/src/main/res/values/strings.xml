@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SendIT</string>
+    <string name="title_activity_tela_usuario">TelaUsuario</string>
+    <string name="title_activity_tela_login">TelaLogin</string>
+    <string name="title_activity_tela_mapa">Map</string>
+    <string name="title_activity_mapa_cola">Map</string>
+</resources>

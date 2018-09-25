@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TelaUsuario">
+
+    <Button
+        android:id="@+id/btn_novoPedido"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="56dp"
+        android:layout_marginEnd="56dp"
+        android:layout_marginTop="8dp"
+        android:background="#393636"
+        android:onClick="novoPedido"
+        android:text="Novo Pedido"
+        android:textColor="#ed9806"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_listaPedidos"
+        app:layout_constraintVertical_bias="0.961" />
+
+    <Button
+        android:id="@+id/btn_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="56dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="8dp"
+        android:background="#393636"
+        android:onClick="back"
+        android:text="Sair"
+        android:textColor="#ed9806"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_listaPedidos"
+        app:layout_constraintVertical_bias="0.961" />
+
+    <Button
+        android:id="@+id/btn_listaPedidos"
+        android:layout_width="0dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="324dp"
+        android:backgroundTint="#393636"
+        android:onClick="listaPedidos"
+        android:text="Lista de Pedidos"
+        android:textColor="#ed9806"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_infoPerfilCliente" />
+
+    <Button
+        android:id="@+id/btn_infoPerfilCliente"
+        android:layout_width="376dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#393636"
+        android:onClick="perfilCliente"
+        android:text="Perfil"
+        android:textColor="#ed9806"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

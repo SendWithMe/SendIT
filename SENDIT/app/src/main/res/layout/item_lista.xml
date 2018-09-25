@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/btn_detalhes"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    android:background="#393636">
+
+    <TextView
+        android:id="@+id/edt_descricao"
+        android:layout_width="198dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="12dp"
+        android:background="#11000000"
+        android:gravity="center"
+        android:text="Descrição"
+        android:textColor="#ed9806"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="38dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/senditransp" />
+
+    <Button
+        android:id="@+id/btn_deta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="52dp"
+        android:layout_marginTop="12dp"
+        android:background="#ed9806"
+        android:onClick="back"
+        android:text="Detalhes"
+        android:textColor="#393636"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />#ed9806"
+    android:textColor="#ed9806#ed9806"
+
+    out_constraintEnd_toEndOf="parent"
+    app:layout />
+
+</android.support.constraint.ConstraintLayout>

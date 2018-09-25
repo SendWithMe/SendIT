@@ -1,0 +1,4 @@
+#Mon Aug 06 22:34:04 BRT 2018
+base.0=C\:\\Users\\emano\\OneDrive\\Documentos\\GitHub\\SendIT-final\\SENDIT\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\3
+path.0=classes.dex
+renamed.0=classes.dex
